@@ -124,7 +124,7 @@ h3 small {
 .intro a:not(#reveal-email):not(#reveal-personal-email) {
   color: black !important;
   font-weight: normal !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
 .intro a:not(#reveal-email):not(#reveal-personal-email):hover {
