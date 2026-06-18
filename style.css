@@ -121,6 +121,16 @@ h3 small {
   text-decoration: underline;
 }
 
+.intro a:not(#reveal-email):not(#reveal-personal-email) {
+  color: black !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+}
+
+.intro a:not(#reveal-email):not(#reveal-personal-email):hover {
+  text-decoration: underline !important;
+}
+
 .abstract {
   margin-top: 2px; /* reduce space above Abstract button */
 }
