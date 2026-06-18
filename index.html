@@ -27,6 +27,7 @@
         </p>
         <div class="contact-info">
             <p><a href="#" id="reveal-email">Email</a></p>
+            <p><a href="#" id="reveal-personal-email">Personal email</a></p>
         </div>
     </div>
   </section>
@@ -92,13 +93,17 @@
   </section>
 
 <script>
-  document.getElementById("reveal-email").addEventListener("click", function(event) {
-    event.preventDefault();
-    this.textContent = "david.morales@tse-fr.eu";  // replace with your real email
-    this.setAttribute("href", "mailto:david.morales@tse-fr.eu");
-    this.style.fontWeight = "normal";      // remove bold after reveal
-    this.style.textDecoration = "none";    // remove underline after reveal
-  });
+  function makeReveal(id, address) {
+    document.getElementById(id).addEventListener("click", function(event) {
+      event.preventDefault();
+      this.textContent = address;
+      this.setAttribute("href", "mailto:" + address);
+      this.style.fontWeight = "normal";
+      this.style.textDecoration = "none";
+    });
+  }
+  makeReveal("reveal-email", "david.morales@tse-fr.eu");
+  makeReveal("reveal-personal-email", "david.morales.dfmr@gmail.com");
 </script>
 
 
