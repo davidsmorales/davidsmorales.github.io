@@ -173,6 +173,75 @@ h3 small {
   color: #333;
 }
 
+@media (max-width: 768px) {
+  /* tighter header */
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 6px;
+  }
+
+  /* stack the photo + text vertically */
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .intro img {
+    max-width: 220px;
+    margin: 0 0 20px 0;
+  }
+
+  .intro div {
+    max-width: 100%;
+  }
+
+  .contact-info {
+    text-align: left;
+  }
+
+  /* tighter Research / Teaching */
+  .papers,
+  .teaching {
+    padding: 0 15px;
+  }
+
+  h1.research-title {
+    font-size: 1.3em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .papers h2,
+  .teaching h2 {
+    font-size: 1.2em;
+    margin-top: 25px;
+  }
+
+  .paper-title {
+    font-size: 1em;
+  }
+
+  /* keep tables from overflowing */
+  .teaching-table td {
+    padding: 8px 10px 8px 0;
+    font-size: 0.95em;
+  }
+
+  /* prevent long coauthor strings from breaking layout */
+  .coauthors {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+  }
+}
+
 
 
 
