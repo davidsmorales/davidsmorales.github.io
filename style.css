@@ -111,6 +111,16 @@ h3 small {
   color: black !important; /* force black */
 }
 
+.coauthors a {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.coauthors a:hover {
+  text-decoration: underline;
+}
+
 .abstract {
   margin-top: 2px; /* reduce space above Abstract button */
 }
