@@ -140,7 +140,38 @@ h3 small {
   margin-top: 5px; /* keeps small gap between Abstract button and text */
 }
 
+.teaching {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
 
+.teaching h2 {
+  margin-top: 40px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.teaching-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.teaching-table td {
+  padding: 12px 24px 12px 0;
+  vertical-align: top;
+}
+
+.teaching-table .course {
+  font-weight: bold;
+  color: #000;
+}
+
+.teaching-table .level,
+.teaching-table .years {
+  color: #333;
+}
 
 
 
