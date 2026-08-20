@@ -269,34 +269,25 @@ h3 small {
     display: inline-block;
     padding: 9px 16px;
 
-    color: #722f45 !important;
+    color: #333333 !important;
     background-color: #ffffff;
-    border: 2px solid #722f45;
+    border: 1px solid #999999;
     border-radius: 4px;
 
     font-size: 0.95rem;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     line-height: 1.2;
     text-decoration: none !important;
-
-    transition: background-color 0.15s ease,
-                color 0.15s ease,
-                transform 0.15s ease;
-}
-
-.intro .hero-actions a.hero-button-primary {
-    color: #ffffff !important;
-    background-color: #722f45;
 }
 
 .intro .hero-actions a.hero-button:hover {
-    color: #ffffff !important;
-    background-color: #5b2537;
-    transform: translateY(-1px);
+    color: #111111 !important;
+    background-color: #f2f2f2;
+    border-color: #555555;
 }
 
 .intro .hero-actions a.hero-button:focus-visible {
-    outline: 3px solid rgba(114, 47, 69, 0.3);
+    outline: 2px solid #555555;
     outline-offset: 3px;
 }
 
@@ -305,8 +296,3 @@ h3 small {
         justify-content: center;
     }
 }
-
-
-
-
-
