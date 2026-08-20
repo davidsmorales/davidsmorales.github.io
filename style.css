@@ -242,20 +242,9 @@ h3 small {
   }
 }
 
-.intro .job-market-notice {
-    display: inline-block;
-    padding: 0.55rem 0.9rem;
-    margin: 0.4rem 0 1.2rem;
-
-    color: #ffffff;
-    background-color: #722f45;
-
-    font-size: 1.2em;
-    font-weight: 800;
-    line-height: 1.25;
-    letter-spacing: 0.01em;
-
-    border-radius: 4px;
+.job-market-notice {
+    font-size: 1.15rem;
+    font-weight: 700;
 }
 
 
