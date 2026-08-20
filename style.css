@@ -295,3 +295,27 @@ h3 small {
         justify-content: center;
     }
 }
+
+.intro .profile-pic {
+    width: 300px;
+    height: 400px;
+    max-width: none;
+
+    object-fit: cover;
+    object-position: center 45%;
+
+    flex-shrink: 0;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .intro .profile-pic {
+        width: 220px;
+        height: 290px;
+        margin: 0 0 20px;
+        object-position: center 45%;
+    }
+}
+
+
