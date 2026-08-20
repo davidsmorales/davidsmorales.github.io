@@ -121,14 +121,14 @@ h3 small {
   text-decoration: underline;
 }
 
-.intro a:not(#reveal-email):not(#reveal-personal-email) {
+.intro a:not(#reveal-email):not(#reveal-personal-email):not(.hero-button) {
   color: black !important;
   font-weight: normal !important;
   text-decoration: underline !important;
 }
 
-.intro a:not(#reveal-email):not(#reveal-personal-email):hover {
-  text-decoration: underline !important;
+.intro a:not(#reveal-email):not(#reveal-personal-email):not(.hero-button):hover {
+    text-decoration: underline !important;
 }
 
 .abstract {
