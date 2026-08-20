@@ -306,7 +306,7 @@ h3 small {
 
     flex-shrink: 0;
     margin-right: 40px;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 
 @media (max-width: 768px) {
