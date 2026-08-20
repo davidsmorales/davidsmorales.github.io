@@ -258,6 +258,54 @@ h3 small {
     border-radius: 4px;
 }
 
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.intro .hero-actions a.hero-button {
+    display: inline-block;
+    padding: 9px 16px;
+
+    color: #722f45 !important;
+    background-color: #ffffff;
+    border: 2px solid #722f45;
+    border-radius: 4px;
+
+    font-size: 0.95rem;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    text-decoration: none !important;
+
+    transition: background-color 0.15s ease,
+                color 0.15s ease,
+                transform 0.15s ease;
+}
+
+.intro .hero-actions a.hero-button-primary {
+    color: #ffffff !important;
+    background-color: #722f45;
+}
+
+.intro .hero-actions a.hero-button:hover {
+    color: #ffffff !important;
+    background-color: #5b2537;
+    transform: translateY(-1px);
+}
+
+.intro .hero-actions a.hero-button:focus-visible {
+    outline: 3px solid rgba(114, 47, 69, 0.3);
+    outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+    .hero-actions {
+        justify-content: center;
+    }
+}
+
 
 
 
