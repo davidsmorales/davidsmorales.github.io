@@ -363,7 +363,7 @@ h3 small {
   align-items: flex-start;
 }
 
-.paper-figures.two-col img {
+.paper-figures.two-col figure {
   width: calc(50% - 9px);
 }
 
@@ -380,7 +380,7 @@ h3 small {
   .paper-figures.two-col {
     flex-direction: column;
   }
-  .paper-figures.two-col img {
+  .paper-figures.two-col figure {
     width: 100%;
   }
 }
