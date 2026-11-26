@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research - David Morales</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
   <style>
     .content {
       max-width: 900px;
@@ -53,11 +53,18 @@
       <a href="files/Slides_Formality_as_a_Financing_Decision.pdf" target="_blank" rel="noopener">Slides</a> &middot;
       <a href="files/Poster_JMP.pdf" target="_blank" rel="noopener">Poster</a>
     </p>    
-    <details>
+    <details open>
       <summary>Abstract</summary>
       <p>
         Can bank loans make informal firms formalize? We match the universe of bank loans, the social security records, and the economic censuses in Mexico to track formality, loans, and firm transitions from 2005 to 2025. Three facts emerge. Three quarters of firms with a bank loan are informal; informal firms pay higher rates, provide more collateral on collateralized loans, and obtain smaller loans; and firms move between formality and informality in both directions. We develop a model in which firms that need a loan and are at the margin between being formal and being informal change their status when the relative terms or availability of loans change. Leveraging bank credit supply shocks, we find that a ten percent credit supply expansion widens the financial advantage of formal firms and, as the model predicts, raises the number of firms that formalize by 850 (0.5 percent) and lowers the number of firms that become informal by 600 (0.4 percent) per five-year window in our sample markets. We demonstrate that bank loans affect not only formal firms but also informal ones, and are a lever for formalization.
       </p>
+      <div class="paper-figures">
+        <figure class="narrow">
+          <figcaption>Credit to formal and informal borrowers after a bank credit supply shock</figcaption>
+          <img src="images/credit.png" alt="Event study: effect of the bank credit supply shock on credit to formal and informal borrowers" loading="lazy">
+        </figure>
+        <img src="images/transitions.png" alt="Five-year effects of a 10 percent credit expansion on firm entry, exit, and formality transitions" loading="lazy">
+      </div>
     </details>
     <p><b>Presented at:</b> Yinghua He Empirical Micro Workshop, Macro Workshop, and BID Workshop (TSE), ENTER Jamboree (SSE), Development breakfast and Labor breakfast (Yale University), and PhD Workshop (NOVA-Lisbon) </p>
 
@@ -67,15 +74,53 @@
         Why Are Firm Effects More Dispersed in Developing Countries? Evidence from Mexico
       </a></h3>
     <p><em>Joint with <a href="https://matteobobba.github.io/" target="_blank" class="coauthor">Matteo Bobba</a>, <a href="https://sites.google.com/view/tim-ederer" target="_blank" class="coauthor">Tim Ederer</a>, <a href="https://sites.google.com/site/lucaflabbi/" target="_blank" class="coauthor">Luca Flabbi</a>, and <a href="https://danielapuggioni.weebly.com/" target="_blank" class="coauthor">Daniela Puggioni</a></em></p>
-    <details>
+    <p>
+      <a href="files/Why_Are_Firm_Effects_More_Dispersed_in_Developing_Countries__Evidence_from_Mexico.pdf" target="_blank" rel="noopener">Paper</a>
+    </p>
+    <details open>
       <summary>Abstract</summary>
       <p>
         A large literature that decomposes wage inequality into worker and firm components finds that firm effects explain a larger share of wage dispersion in developing countries than in advanced economies. This paper argues that the informal sector explains it. Using the economic census and matched employer-employee data from Mexico's manufacturing sector, we estimate AKM two-way fixed effects models and show that labor markets with more informality have firm effects that are more dispersed, explain a larger share of wage variance, and are lower on average. This evidence motivates a labor market model with imperfect competition, compensating differentials, and informality. This framework allows us to decompose the estimated AKM firm effects into productivity pass-through, amenities, and market power. The estimation is ongoing and will allow us to quantify how much of the dispersion in firm effects reflects informality.
       </p>
+      <div class="paper-figures two-col">
+        <figure>
+          <figcaption>Variance of firm effects</figcaption>
+          <img src="images/firm_fe_var.png" alt="Variance of firm effects by quintile of informality, AKM and KSS estimates" loading="lazy">
+        </figure>
+        <figure>
+          <figcaption>Variance decomposition of log wages</figcaption>
+          <img src="images/var_decomp.png" alt="Variance decomposition of log wages by worker informality share" loading="lazy">
+        </figure>
+      </div>
     </details>
     <p><b>Presented at:</b> Econometrics and Empirical Economics retreat (TSE) </p>
-    
+
+    <h2>Work in Progress</h2>
+
+    <h3>Credit, Informality, and Aggregate Outcomes</h3>
+    <details>
+      <summary>Abstract</summary>
+      <p>
+        This project extends my job market paper. First, I extend the model to a general equilibrium framework in which firms compete in the labor market. Second, I estimate it as a dynamic discrete choice problem in which firms choose between exit, formality, and informality. The estimation will allow me to evaluate counterfactual policies such as credit guarantees or financial inclusion programs and compare their effects with those of tax policy changes on formality, output, and productivity.
+      </p>
+    </details>
+
+    <h3>How Firm Shocks Reach Workers</h3>
+    <details>
+      <summary>Abstract</summary>
+      <p>
+        This work studies the pass-through of firm shocks to wages and employment and its interaction with informality. I rely on the credit shocks as in my job market paper, but at monthly frequency, and I include only loans used for productive purposes such as capital investment, excluding all other types of loans. To analyze the effects of these shocks at the firm level, not at the market level, I match the financial shocks with a pool of more than 2.4 million companies. The estimation measures how much of the credit shock actually translates into a labor productivity shock and traces its effects on firms’ growth, capital investment, and profits. Then I estimate the effects of labor productivity changes, instrumented by the credit supply shocks, on labor and wages. Furthermore, I analyze how the pass-through differs by formality and by regional institutional settings like the minimum wage and taxes.
+      </p>
+    </details>
+
+    <h3>Who Bears the Cost of Domestic Sovereign Borrowing?</h3>
+    <details>
+      <summary>Abstract</summary>
+      <p>
+        The share of government debt held by domestic banks has increased in emerging economies in a context of fiscal pressures such as fuel subsidies, pension systems, and state-owned enterprises’ financial back-up. It is well documented that government borrowing can crowd out financing to the private sector. This work measures the degree of crowding-out and assesses its effects across the firm size distribution and the firms’ formality status. Using banks’ holdings of government securities and the universe of bank loans to enterprises, I compare multi-bank firms connected to banks exposed to different levels of government securities. Furthermore, I explore the feedback effects of the crowding-out, where the government borrows from banks, firms face a credit drought and perform poorly, fiscal revenues fall as a consequence, and the government must borrow even more from banks.
+      </p>
+    </details>
+
   </section>
 </body>
 </html>
-
