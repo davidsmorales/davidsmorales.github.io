@@ -384,3 +384,7 @@ h3 small {
     width: 100%;
   }
 }
+
+.paper-main {
+  margin-bottom: 70px;
+}
